@@ -12,8 +12,8 @@ from aiogram.dispatcher.filters.state import State, StatesGroup
 load_dotenv()
 
 # Конфигурация
-API_TOKEN = os.getenv("TELEGRAM_TOKEN")
-ADMIN_ID = int(os.getenv("ADMIN_ID", "0"))
+API_TOKEN = os.getenv("8744542602:AAEaqLkNAYLNtclYfKsXpcXytxYXt8GwYoo")
+ADMIN_ID = int(os.getenv("5663190082", "0"))
 
 # Проверка токена
 if not API_TOKEN:
